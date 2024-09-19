@@ -1,7 +1,7 @@
 {
   "basePath": "/alm_roundtable_techradar",
   "baseUrl": "https://engineering-methods.github.io",
-  "editUrl": "https://github.dev/engineering-method/alm_roundtable_techradar/blob/main/radar/{release}/{id}.md",
+  "editUrl": "https://github.dev/engineering-methods/alm_roundtable_techradar/blob/main/radar/{release}/{id}.md",
   "logoFile": "rt_logo.svg",
   "jsFile": "",
   "toggles": {
