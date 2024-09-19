@@ -1,0 +1,132 @@
+{
+  "basePath": "/alm_roundtable_techradar",
+  "baseUrl": "https://engineering-methods.github.io",
+  "editUrl": "https://github.dev/engineering-method/alm_roundtable_techradar/blob/main/radar/{release}/{id}.md",
+  "logoFile": "rt_logo.svg",
+  "jsFile": "",
+  "toggles": {
+    "showChart": true,
+    "showTagFilter": true,
+    "showQuadrantList": true,
+    "showEmptyRings": false
+  },
+  "sections": ["radar", "list"],
+  "colors": {
+    "foreground": "#E6F4FC",
+    "background": "#2C393B",
+    "highlight": "#5FB9EC",
+    "content": "#fff",
+    "text": "#6D6D6D",
+    "link": "#0273B9",
+    "border": "rgba(255, 255, 255, 0.1)",
+    "tag": "rgba(255, 255, 255, 0.1)"
+  },
+  "quadrants": [
+    {
+      "id": "techniques",
+      "title": "Methods & Techniques",
+      "description": "Methods and techniques in ALM.",
+      "color": "#4CC627"
+    },
+    {
+      "id": "tools",
+      "title": "Tools",
+      "description": "Tools supporting the application lifecycle management.",
+      "color": "#009DFF"
+    },
+    {
+      "id": "platforms-and-operations",
+      "title": "Platforms & Operations",
+      "description": "Platforms, services and operation tools",
+      "color": "#B41FD2"
+    },
+    {
+      "id": "languages-and-frameworks",
+      "title": "Languages & Frameworks",
+      "description": "Programming languages and frameworks.",
+      "color": "#C5A111"
+    }
+  ],
+  "rings": [
+    {
+      "id": "adopt",
+      "title": "Adopt",
+      "description": "",
+      "color": "#588157",
+      "radius": 0.5,
+      "strokeWidth": 5
+    },
+    {
+      "id": "trial",
+      "title": "Trial",
+      "description": "",
+      "color": "#457b9d",
+      "radius": 0.69,
+      "strokeWidth": 3
+    },
+    {
+      "id": "assess",
+      "title": "Assess",
+      "description": "",
+      "color": "#bc6c25",
+      "radius": 0.85,
+      "strokeWidth": 2
+    },
+    {
+      "id": "hold",
+      "title": "Hold",
+      "description": "",
+      "color": "#d62828",
+      "radius": 1,
+      "strokeWidth": 0.75
+    }
+  ],
+  "flags": {
+    "new": {
+      "color": "#f1235a",
+      "title": "New",
+      "titleShort": "N",
+      "description": "New in this version"
+    },
+    "changed": {
+      "color": "#40a7d1",
+      "title": "Changed",
+      "titleShort": "C",
+      "description": "Recently changed"
+    },
+    "default": {
+      "description": "Unchanged"
+    }
+  },
+  "chart": {
+    "size": 800,
+    "blipSize": 16
+  },
+  "social": [
+    {
+      "href": "https://www.linkedin.com/company/engineering-methods/",
+      "icon": "linkedIn"
+    },
+    {
+      "href": "https://github.com/engineering-methods",
+      "icon": "github"
+    }
+  ],
+  "imprint": "https://www.em.ag/alm-roundtable/",
+  "labels": {
+    "title": "ALM Technology Radar",
+    "imprint": ":em AG | ALM Roundtable",
+    "quadrant": "Quadrant",
+    "quadrantOverview": "Quadrant Overview",
+    "zoomIn": "Zoom in",
+    "filterByTag": "Filter by Tag",
+    "footer": "The technology radar was created on a workshop at the ALM Roundtable 2024",
+    "notUpdated": "This item was not updated in last three versions of the Radar. Should it have appeared in one of the more recent editions, there is a good chance it remains pertinent. However, if the item dates back further, its relevance may have diminished and our current evaluation could vary. Regrettably, our capacity to consistently revisit items from past Radar editions is limited.",
+    "notFound": "404 - Page not found",
+    "pageAbout": "How to use ALM Roundtable Technology Radar?",
+    "pageOverview": "Technologies Overview",
+    "pageSearch": "Search",
+    "searchPlaceholder": "What are you looking for?",
+    "metaDescription": ""
+  }
+}
