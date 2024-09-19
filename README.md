@@ -2,6 +2,17 @@
 
 ![pipeline status](https://github.com/engineering-methods/alm_roundtable_techradar/actions/workflows/generate_radar.yaml/badge.svg)
 
+This technology radar was created at our [ALM Roundtable 2024](https://www.em.ag/alm-roundtable/) event on September 17th, 2024. We had a great mix of people from different industries and roles
+in the audience to share our thoughts on the current state of technology.
+
+Thanks to all attendees for their contributions!! 🎉
+
+## Generated Radar
+
+See the generated radar here: **<https://engineering-methods.github.io/alm_roundtable_techradar/>**
+
+It is build automatically from this repository.
+
 ## Usage / Anatomy
 
 In the folder `radar` the radars are stored.
